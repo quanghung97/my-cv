@@ -1,7 +1,7 @@
 {
     "cvData": {
         "name": "Trần Quang Hưng",
-        "title": "Senior Fullstack Developer (Backend-focused)",
+        "title": "Senior Backend Engineer (Java, Go, Node.js)",
         "photo": "https://static.topcv.vn/avatars/GkIMkrVBe8iBmCgqa5Ke_660cc728e6314_cvtpl.jpg?1774406651",
         "contact": [
             {
@@ -18,21 +18,22 @@
             }
         ],
         "overview": [
-            "Senior Fullstack Engineer with strong experience in using AI systems, blockchain, and scalable microservices architectures. Proven ability to design complex systems (multi-tenant SaaS, workflow engines, MLM, AI agents) and deliver high-impact solutions across fintech, healthcare, and Web3 domains."
+            "Senior Backend Engineer with strong focus on Java/Spring Boot, Go/gRPC, and Node.js/NestJS. Experienced in designing microservices, workflow engines, and business-critical systems, with practical experience applying AI flows and agentic AI agents to streamline development workflows, reduce manual effort, and optimize delivery from planning to implementation."
         ],
         "workExperience": [
             {
                 "company": "Synodus",
-                "position": "Senior Fullstack Developer",
+                "position": "Senior Backend / Fullstack Developer",
                 "period": "Apr 2021 – Present",
                 "responsibilities": [
-                    "Designed and developed multiple microservices-based systems using Node.js (NestJS), Golang (gRPC), Python (Django, LangGraph).",
-                    "Build decentralized finance features Web3 DeFi & NFT Marketplace (Vue.js, Nuxt, Blockchain)",
-                    "Built and maintained multi-tenant SaaS platforms with high scalability (LegalTech system).",
-                    "Architected distributed systems using Kafka, PostgreSQL, MongoDB, and Elasticsearch.",
-                    "Designed and implemented Personal AI Agent system using LangGraph (Python) integrated with Node.js backend.",
-                    "Collaborated with backend teams to design RESTful APIs using NestJS and Fastify.",
-                    "Mentored junior developers and contributed to frontend architecture decisions."
+                    "Designed and developed backend services with Java/Spring Boot, Go/gRPC, and Node.js/NestJS for SaaS, healthcare, fintech, and enterprise systems.",
+                    "Built microservices with clear service boundaries, REST/gRPC APIs, asynchronous processing, and production-ready observability.",
+                    "Designed multi-tenant data models, workflow engines, permission models, and audit-friendly business flows.",
+                    "Optimized PostgreSQL, MongoDB, Redis, Kafka, and Elasticsearch usage for reliability and performance.",
+                    "Integrated AI and automation features through backend orchestration services while keeping core business logic maintainable.",
+                    "Worked closely with product, QA, frontend, backend, and client-side stakeholders to clarify requirements, align delivery scope, and resolve blockers.",
+                    "Led technical discussions, presented solution options, proposed trade-offs, and guided smaller workstreams from planning to implementation.",
+                    "Reviewed architecture, mentored developers, and reinforced engineering processes such as code review, documentation, testing, and release discipline."
                 ]
             },
             {
@@ -40,48 +41,66 @@
                 "position": "Middle Fullstack Developer",
                 "period": "Mar 2019 – Dec 2020",
                 "responsibilities": [
-                    "Built and published a reusable Vue2 package",
-                    "Developed an AI-powered receipt scanning module OCR",
-                    "Optimized SEO and frontend performance for Viblo (Vue.js, Nuxt)",
-                    "Implemented end-to-end (E2E) and integration testing using Cypress",
-                    "Developed ranking & salary evaluation system at Sun* (Laravel, Vue, Nuxt)",
-                    "Contributed to multiple private products across fullstack stack (PHP (Laravel), Vue/Nuxt)"
+                    "Optimized SEO, page rendering, metadata structure, and frontend performance for Viblo to improve discoverability and user experience.",
+                    "Developed a Go-based compliance and code judging module for Viblo Code, supporting automated test execution and result evaluation similar to LeetCode/HackerRank.",
+                    "R&D and developed an internal scoring model for employee evaluation, rank review, and salary review processes.",
+                    "Built evaluation workflows with configurable criteria, role-based review steps, and reporting features for managers and HR teams.",
+                    "Collaborated with managers, HR users, and developers to translate evaluation policies into clear system behavior.",
+                    "Improved product quality through integration tests, E2E tests, performance tuning, production issue handling, and disciplined process follow-through."
                 ]
             }
         ],
         "projects": [
             {
-                "name": "Legalos",
-                "subtitle": "",
-                "client": "",
-                "description": "",
+                "name": "C12 Database Scoring Platform",
+                "client": "C12 - Ministry of Public Security",
+                "subtitle": "AI-first Fullstack System",
+                "description": "Database scoring and compliance platform with RBAC, Node.js microservices, and React.js frontend.",
                 "highlights": [
-                    "S/T: Legacy legal platform required scalable multi-tenant architecture",
-                    "A: Redesigned and maintained tenant-isolated data model, optimized query performance",
-                    "R: Improved system scalability and reduced cross-tenant data risks"
+                    "S/T: C12 needed a platform to evaluate database quality, manage scoring criteria, and control access across multiple user roles",
+                    "A: Designed RBAC model, built Node.js microservices for scoring workflows and backend APIs, and implemented React.js frontend screens for fullstack delivery",
+                    "R: Delivered an AI-first project where AI agents supported the full process from planning and task breakdown to FE/BE implementation and deployment preparation"
                 ],
                 "tech": [
-                    "python",
-                    "django",
-                    "mysql",
-                    "vault"
+                    "nodejs",
+                    "nestjs",
+                    "react",
+                    "postgresql",
+                    "kafka"
+                ]
+            },
+            {
+                "name": "Legal SaaS Platform",
+                "subtitle": "",
+                "client": "",
+                "description": "Multi-tenant legal platform for document, workflow, and permission management.",
+                "highlights": [
+                    "S/T: Legacy legal platform required safer tenant isolation and more scalable backend architecture",
+                    "A: Designed tenant-aware data model, permission checks, audit flow, and service-level boundaries using Java/Spring Boot",
+                    "R: Improved maintainability, reduced cross-tenant data risks, and supported larger enterprise customers"
+                ],
+                "tech": [
+                    "java",
+                    "spring",
+                    "postgresql",
+                    "redis"
                 ]
             },
             {
                 "name": "Personal AI Agent",
                 "client": "",
                 "subtitle": "",
-                "description": "",
+                "description": "Backend orchestration system for configurable AI agents, memory, and workflow execution.",
                 "highlights": [
-                    "S/T: Need for customizable AI agents with persistent memory and orchestration.",
-                    "A: Designed hybrid architecture (Python AI core + Node.js backend), integrated vector-based memory",
-                    "R: Enabled dynamic, context-aware AI agents with extensible workflows"
+                    "S/T: Product needed customizable agents with persistent memory, user isolation, and extensible workflows",
+                    "A: Built Node.js/NestJS backend APIs, gRPC integration layer, PostgreSQL persistence, and job orchestration",
+                    "R: Enabled dynamic, context-aware agents while keeping business workflows manageable from backend services"
                 ],
                 "tech": [
-                    "postgresql",
+                    "nodejs",
+                    "nestjs",
                     "grpc",
-                    "python",
-                    "nestjs"
+                    "postgresql"
                 ]
             },
             {
@@ -91,29 +110,29 @@
                 "description": "Healthcare application supporting nurses in monitoring patient conditions and medical data.",
                 "highlights": [
                     "S/T: Hospital required a flexible system to handle diverse medical forms and approval workflows",
-                    "A: Designed and developed a dynamic form generation engine supporting configurable schemas and rendering logic; integrated digital signature workflows for document validation and approval",
+                    "A: Designed Java/Spring Boot services for dynamic form schemas, medical data validation, approval workflows, and digital signatures",
                     "R: Reduced manual paperwork, improved form processing efficiency, and ensured secure, traceable document signing"
                 ],
                 "tech": [
-                    "nodejs",
-                    "nestjs",
+                    "java",
+                    "spring",
                     "oracle",
                     "elasticsearch"
                 ]
             },
             {
-                "name": "MLM System NIHS",
+                "name": "Multi-level Marketing System - New Image Asia",
                 "client": "",
                 "subtitle": "",
-                "description": "Multi Level Marketing",
+                "description": "Multi-level marketing backend for New Image Asia, supporting hierarchy, commission, and payout calculation.",
                 "highlights": [
-                    "S/T: Complex multi-level commission and hierarchy calculation",
-                    "A: Designed scalable tree structure and optimized commission algorithms",
+                    "S/T: New Image Asia required a reliable backend for complex multi-level commission and hierarchy calculation",
+                    "A: Implemented Java/Spring Boot services for tree traversal, commission rules, batch calculation, and audit logs",
                     "R: Accurately handled large-scale MLM calculations with high performance"
                 ],
                 "tech": [
-                    "nodejs",
-                    "nestjs",
+                    "java",
+                    "spring",
                     "postgresql"
                 ]
             },
@@ -121,102 +140,126 @@
                 "name": "Bamboo EFC Partner System",
                 "client": "",
                 "subtitle": "",
-                "description": "",
+                "description": "Partner booking platform for travel combos, including hotels, flight tickets, and bundled services.",
                 "highlights": [
-                    "S/T: Required high-performance inter-service communication",
-                    "A: Designed gRPC-based microservices, implemented grpc-web for frontend integration",
-                    "R: Reduced API latency and improved service communication efficiency"
+                    "S/T: Travel partners needed a reliable booking system for hotel, ticket, and combo-service orders",
+                    "A: Built Go microservices with gRPC contracts, partner integration flows, Kafka-based booking events, and PostgreSQL persistence",
+                    "R: Improved booking reliability, reduced service communication latency, and supported scalable partner operations"
                 ],
                 "tech": [
-                    "grpc",
                     "go",
+                    "grpc",
                     "postgresql",
                     "kafka"
                 ]
             },
             {
-                "name": "BlockEstate",
-                "client": "CryptoAssets Inc.",
-                "subtitle": "NFT Platform",
-                "description": "Platform for managing blockchain-based real estate digital assets.",
+                "name": "Enterprise Integration Gateway",
+                "client": "",
+                "subtitle": "",
+                "description": "Backend gateway for partner APIs, internal services, and asynchronous business events.",
                 "highlights": [
-                    "S/T: Needed a scalable platform to manage and interact with blockchain-based real estate assets",
-                    "A: Designed and implemented a modular frontend architecture with reusable component libraries; integrated blockchain wallet connection (MetaMask) for user interactions",
-                    "R: Improved development scalability and delivered a seamless Web3 user experience"
+                    "S/T: Multiple systems needed a consistent way to exchange data with external partners",
+                    "A: Designed Node.js/NestJS gateway services with validation, retry strategy, idempotency keys, and Kafka event publishing",
+                    "R: Improved integration reliability and reduced duplicate processing in downstream systems"
                 ],
                 "tech": [
-                    "react",
-                    "wagmi",
+                    "nodejs",
                     "nestjs",
+                    "kafka",
                     "mongodb"
                 ]
             },
             {
-                "name": "Web3 DeFi & NFT Marketplace",
+                "name": "Order & Workflow Service",
                 "client": "",
                 "subtitle": "",
-                "description": "",
+                "description": "Backend service for configurable order states, approval steps, and operational workflows.",
                 "highlights": [
-                    "S/T: Build decentralized finance features (loan/borrow, NFT trading).",
-                    "A: Integrated smart contracts and wallet interaction into frontend.",
-                    "R: Delivered seamless Web3 user experience."
+                    "S/T: Business teams needed configurable workflows without changing application code for every process",
+                    "A: Built Java/Spring Boot workflow service with state transitions, role-based approval, and event-driven notifications",
+                    "R: Reduced repeated development effort and made workflow changes safer to operate"
                 ],
                 "tech": [
-                    "nuxtjs",
-                    "vuejs",
-                    "react"
+                    "java",
+                    "spring",
+                    "postgresql",
+                    "kafka"
                 ]
             },
             {
-                "name": "Rank evaluation, salary evaluation",
+                "name": "Viblo Code Compliance Module",
+                "client": "",
+                "subtitle": "Online Judge / Code Evaluation",
+                "description": "Code judging module for running submissions against test cases and evaluating coding challenge results.",
+                "highlights": [
+                    "S/T: Viblo Code needed an automated way to validate submissions and measure results for programming challenges",
+                    "A: Developed Go-based compliance module to execute test cases, compare outputs, handle result statuses, and report scoring data",
+                    "R: Enabled a HackerRank-like evaluation flow with faster feedback and more consistent judging results"
+                ],
+                "tech": [
+                    "go",
+                    "postgresql",
+                    "redis"
+                ]
+            },
+            {
+                "name": "Rank & Salary Evaluation System",
                 "client": "",
                 "subtitle": "",
-                "description": "",
+                "description": "Internal evaluation platform for employee rank, salary review, and approval workflows.",
                 "highlights": [
                     "S/T: Internal evaluation process at Sun* lacked standardization, leading to inconsistent performance reviews and limited transparency.",
-                    "A: Designed backend services using Laravel to handle evaluation logic, scoring rules, and role-based access .Built dynamic frontend interfaces (Vue.js, Nuxt) for managers to submit and review evaluations. Implemented configurable criteria and workflows to support multiple departments and evaluation cycles.",
+                    "A: Designed backend services for evaluation logic, scoring rules, role-based access, and configurable review cycles",
                     "R: Enabled scalable and repeatable evaluation workflows across the organization."
                 ],
                 "tech": [
-                    "nuxtjs",
-                    "vuejs",
-                    "laravel"
+                    "nodejs",
+                    "nestjs",
+                    "postgresql"
                 ]
             }
         ],
         "otherProjects": [
-            "Enterprise admin dashboards",
-            "E-commerce systems",
-            "NFT platforms",
-            "Healthcare internal applications"
+            "Backend microservices for enterprise systems",
+            "Partner integration services",
+            "Healthcare workflow applications",
+            "Internal operation and evaluation platforms"
         ],
         "skills": {
-            "Frontend": [
-                "vuejs",
-                "react",
-                "tailwindcss",
-                "antdesign",
-                "materialui"
-            ],
             "Backend": [
+                "java",
+                "spring",
                 "nodejs",
                 "nestjs",
-                "kafka",
-                "django",
                 "go",
-                "python"
+                "grpc",
+                "kafka"
             ],
             "Database": [
                 "postgresql",
                 "mongodb",
-                "mysql",
                 "redis"
+            ],
+            "Frontend": [
+                "vuejs",
+                "react"
+            ],
+            "Leadership & Collaboration": [
+                "Team collaboration",
+                "Technical mentoring",
+                "Meeting facilitation",
+                "Technical presentation",
+                "Requirement clarification",
+                "Solution proposal",
+                "Deep research",
+                "Process compliance"
             ]
         },
         "education": [
             {
-                "school": "University of Engineering and Technology (UET)",
-                "degree": "Information Technology",
+                "school": "University of Engineering and Technology (UET), Vietnam National University, Hanoi",
+                "degree": "Faculty of Information Technology - Major in Information Technology",
                 "period": "2015 – 2019"
             }
         ],
@@ -337,6 +380,13 @@
             "bgColor": "#E6F7FA",
             "textColor": "#0891B2",
             "label": "TailwindCSS"
+        },
+        "java": {
+            "icon": "devicon-java-plain",
+            "iconColor": "#ED8B00",
+            "bgColor": "#FFF3E0",
+            "textColor": "#B45309",
+            "label": "Java"
         },
         "spring": {
             "icon": "devicon-spring-original",
