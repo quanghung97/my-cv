@@ -1,7 +1,7 @@
 {
     "cvData": {
         "name": "Trần Quang Hưng",
-        "title": "Senior Backend Engineer (Java, Go, Node.js)",
+        "title": "Fullstack Developer (Backend-focused)",
         "photo": "https://static.topcv.vn/avatars/GkIMkrVBe8iBmCgqa5Ke_660cc728e6314_cvtpl.jpg?1774406651",
         "contact": [
             {
@@ -22,29 +22,30 @@
         ],
         "workExperience": [
             {
-                "company": "Synodus",
-                "position": "Senior Backend / Fullstack Developer",
+                "company": "Synodus Joint Stock Company",
+                "position": "Senior Fullstack Developer",
                 "period": "Apr 2021 – Present",
                 "responsibilities": [
-                    "Owned and maintained 2 backend service domains across SaaS, healthcare, fintech, and enterprise systems, including requirement clarification, technical design, delivery tracking, and production support.",
-                    "Acted as backup engineer for 2 teammates' modules, handled cross-module incidents, and kept service knowledge transferable through design notes and code review.",
-                    "Reviewed code and technical design for 3 developers, focusing on service boundaries, API contracts, database changes, job processing, error handling, and release risks.",
-                    "Took PO/PM-like responsibility for selected services: aligned scope with product/client stakeholders, broke requirements into technical tasks, clarified edge cases, and tracked blockers until delivery.",
-                    "Designed distributed backend flows using Java/Spring Boot, Go/gRPC, Node.js/NestJS, PostgreSQL, Redis, Kafka, and Elasticsearch.",
-                    "Led technical discussions, presented solution options and trade-offs, and proposed process or feature changes to reduce recurring bugs."
+                    "Designed and developed backend services with domain healthcare, fintech, and enterprise systems.",
+                    "Built microservices with clear service boundaries, REST/gRPC APIs, asynchronous processing, and production-ready observability.",
+                    "Designed multi-tenant data models, workflow engines, permission RBAC models, and audit-friendly business flows.",
+                    "Optimized PostgreSQL, Redis, Kafka usage for reliability and performance.",
+                    "Integrated AI and automation features through backend orchestration services while keeping core business logic maintainable.",
+                    "Reviewed architecture, mentored developers, and improved code quality across backend and fullstack teams.",
+                    "Worked closely with product, QA, frontend, backend, and client-side stakeholders to clarify requirements, align delivery scope, and resolve blockers.",
+                    "Led technical discussions, presented solution options, proposed trade-offs, and guided smaller workstreams from planning to implementation.",
+                    "Reviewed architecture, mentored developers, and reinforced engineering processes such as code review, documentation, testing, and release discipline."
                 ]
             },
             {
-                "company": "Sun*",
+                "company": "Sun Asterisk Vietnam Company Limited",
                 "position": "Middle Fullstack Developer",
                 "period": "Mar 2019 – Dec 2020",
                 "responsibilities": [
-                    "Owned 1 product module from requirement analysis to design, implementation, testing, bug fixing, and release support.",
-                    "Worked directly with internal users and client-side stakeholders to collect requirements, demo features, clarify feedback, and turn business rules into implementation tasks.",
-                    "Integrated, designed, and developed fullstack features for Viblo and internal operation systems using Vue/Nuxt, Laravel, Go, PostgreSQL, and Redis.",
+                    "Optimized SEO, page rendering, metadata structure, and frontend performance for Viblo to improve discoverability and user experience.",
                     "Developed a Go-based compliance and code judging module for Viblo Code, supporting automated test execution and result evaluation similar to LeetCode/HackerRank.",
-                    "Designed employee evaluation workflows with configurable scoring criteria, approval steps, role-based review, and reporting for managers and HR teams.",
-                    "Handled bug tickets through the team process, traced root causes, and proposed small feature/process changes to reduce repeated defects."
+                    "R&D and developed an internal scoring model for employee evaluation, rank review, and salary review processes.",
+                    "Built evaluation workflows with configurable criteria, role-based review steps, and reporting features for managers and HR teams."
                 ]
             }
         ],
@@ -188,56 +189,32 @@
             }
         ],
         "otherProjects": [
-            "Designed business flows and backend architecture for Bach Mai Care, Viblo/Viblo Code, Legal SaaS, and internal evaluation systems",
-            "Implemented and maintained partner/customer systems including booking, workflow, integration gateway, and enterprise admin services",
-            "Handled production bug tickets through triage, root-cause analysis, patch delivery, regression checks, and release follow-up",
-            "Improved team debugging and delivery flow through clearer logs, API contracts, review checklists, and incident notes",
-            "Optimized async workloads including Kafka fanout, uneven worker load, retry storms, batch jobs, and bandwidth-heavy data responses"
+            "Enterprise admin dashboards",
+            "E-commerce systems",
+            "NFT platforms",
+            "Healthcare internal applications"
         ],
         "skills": {
-            "Backend": [
-                "java",
-                "spring",
-                "nodejs",
-                "nestjs",
-                "go",
-                "grpc",
-                "kafka"
-            ],
-            "Database": [
-                "postgresql",
-                "mongodb",
-                "redis"
-            ],
             "Frontend": [
                 "vuejs",
                 "react"
             ],
-            "System Design & Operations": [
-                "Distributed workflows",
-                "Async job processing",
-                "Kafka fanout",
-                "Worker load balancing",
-                "Debug pipelines",
-                "Production maintenance",
-                "Bug triage",
-                "Throughput optimization"
+            "Backend": [
+                "nodejs",
+                "java",
+                "go"
             ],
-            "Leadership & Collaboration": [
-                "Team collaboration",
-                "Technical mentoring",
-                "Meeting facilitation",
-                "Technical presentation",
-                "Requirement clarification",
-                "Solution proposal",
-                "Deep research",
-                "Process compliance"
+            "Database": [
+                "oracle",
+                "postgresql",
+                "mysql",
+                "redis"
             ]
         },
         "education": [
             {
-                "school": "University of Engineering and Technology (UET), Vietnam National University, Hanoi",
-                "degree": "Faculty of Information Technology - Major in Information Technology",
+                "school": "University of Engineering and Technology (UET), VNU, Ha Noi",
+                "degree": "Bachelor of Information Technology (High-Quality Program)",
                 "period": "2015 – 2019"
             }
         ],
@@ -358,13 +335,6 @@
             "bgColor": "#E6F7FA",
             "textColor": "#0891B2",
             "label": "TailwindCSS"
-        },
-        "java": {
-            "icon": "devicon-java-plain",
-            "iconColor": "#ED8B00",
-            "bgColor": "#FFF3E0",
-            "textColor": "#B45309",
-            "label": "Java"
         },
         "spring": {
             "icon": "devicon-spring-original",
@@ -631,6 +601,13 @@
             "bgColor": "#F0F0F0",
             "textColor": "#000000",
             "label": "Laravel"
+        },
+        "java": {
+            "icon": "devicon-java-plain",
+            "iconColor": "#000000",
+            "bgColor": "#F0F0F0",
+            "textColor": "#000000",
+            "label": "Java"
         }
     },
     "themeConfig": {
